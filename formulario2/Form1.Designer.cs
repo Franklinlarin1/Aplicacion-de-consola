@@ -30,6 +30,7 @@ namespace formulario2
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
+            this.lblformulario2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -43,21 +44,33 @@ namespace formulario2
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // lblformulario2
+            // 
+            this.lblformulario2.AutoSize = true;
+            this.lblformulario2.Location = new System.Drawing.Point(322, 217);
+            this.lblformulario2.Name = "lblformulario2";
+            this.lblformulario2.Size = new System.Drawing.Size(35, 13);
+            this.lblformulario2.TabIndex = 1;
+            this.lblformulario2.Text = "label1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblformulario2);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblformulario2;
     }
 }
 
