@@ -19,8 +19,14 @@ namespace formulario2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            lblformulario2.Text = "Nathaly Milena Zelaya, Julissa Odaly Sosa, Erick Mauricio Tiznado, Oscar Manuel Lopéz, Ana Carolina Rodriguez, Franklin Stanley Larin ";
-           
+            lblformulario2.Visible = true;
+            label1.Visible = true;
+            label2.Visible = true;
+            label3.Visible = true;
+            label4.Visible = true;
+            label5.Visible = true; 
+
+
         }
     }
 }
